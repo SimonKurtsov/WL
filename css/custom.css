@@ -1,0 +1,119 @@
+/* Tutaj piszemy styli css . Prosze o komentarzach  */
+
+
+#main-slider .carousel .btn {
+    border-radius: 40px ;
+}
+
+/* NavBar na pierwszym i drugim slaidze */
+.opaqued {
+	visibility:hidden;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 1px 1px;
+}
+/***********************************************/
+
+
+/* No Paralax for TImeline */
+.timeline_class {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-bottom: -10px !important;
+}
+/***********************************************/
+
+/******Icons stuff we do*******/
+.fa-md{
+	background-color: #FACC2E;    /*******kolor do inversji********/
+}
+.service-block:hover .fa-md {
+    color: #FACC2E;               /*******kolor ikonki po inversji********/
+    box-shadow: 0 0 0 4px #FACC2E; /*******kolor borderow po inversji********/
+
+}
+/** Ikonki po centru nad tekstem **/
+.pull-left.bounce-in.no-display.animated.bounceIn.appear {
+
+    width: 100%;
+    padding-left: 40%;
+    padding-bottom: 17px;
+
+}
+/*************************************************/
+
+/***************Timeline styles*******************/
+
+.timeline ul li {
+    background: #504d4a;
+
+}
+.timeline ul li div {
+    background: #FACC2E;
+}
+.timeline ul li.in-view::after {
+
+    background: #FACC2E;
+
+}
+.timeline ul li:nth-child(2n+1) div::before {						/* W ogole nie ebie co tu sie dzieje*/
+    border-color: transparent #FACC2E transparent transparent;    /* W ogole nie ebie co tu sie dzieje*/
+}
+.timeline ul li:nth-child(2n) div::before {						/* W ogole nie ebie co tu sie dzieje*/		
+    border-color: transparent transparent transparent #FACC2E;	/* W ogole nie ebie co tu sie dzieje*/
+
+}
+.timeline ul {
+    background: #f8f8f8;
+}
+time {
+    font-size: 1.8rem;
+    text-align: center;
+}
+/******** Timeline end ***************/
+
+.portfolio-filter > li a.active {
+    color: #FFF;
+    background: #FACC2E;
+    border: 2px solid #FACC2E;
+}
+.btn-outlined.btn-primary {
+    background: none;
+    border: 2px solid #FACC2E;
+    color: #FACC2E;
+}
+.btn-outlined.btn-primary:hover, .btn-outlined.btn-primary:active {
+    color: #FFF;
+    background: #FACC2E;
+    border-color: #FACC2E:;
+}
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open > .dropdown-toggle.btn-primary.focus, .open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #FACC2E;
+    border-color: #FACC2E;
+}
+#content-wrapper {
+    margin-bottom: -50px;
+}
+#testimonial-carousel {
+    margin-bottom: -25px !important;
+}
+.navbar-header h1 {
+    text-transform: capitalize;
+}
+
+.portfolio-item:hover h5, .team-member:hover .team-content, .post:hover .content {
+    border-bottom: 4px solid #FACC2E;
+}
+.portfolio-item:hover .overlay {
+    opacity: 0.6;
+}
